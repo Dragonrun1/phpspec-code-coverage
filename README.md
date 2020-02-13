@@ -16,7 +16,9 @@ codebase are tested and how well. However, Code Coverage alone should NOT be
 used as a single metric defining how good your tests are.
 
 **Note!** This is a maintained fork of [henrikbjorn/phpspec-code-coverage][1]
-package with compatible version numbers for stable releases.
+package with compatible version numbers for stable releases. 
+
+    composer require --dev dragonrun1/phpspec-code-coverage
 
 ![phpspec-code-coverage console report](https://i.imgur.com/BU10ZAV.png)
 ![phpspec-code-coverage HTML report](https://i.imgur.com/6xACR1g.png)
@@ -35,7 +37,7 @@ Please see [CHANGELOG.md](CHANGELOG.md) for information on recent changes.
 
 Install this package as a development dependency in your project:
 
-    $ composer require --dev leanphp/phpspec-code-coverage
+    $ composer require --dev dragonrun1/phpspec-code-coverage
 
 Enable extension by editing `phpspec.yml` of your project:
 
